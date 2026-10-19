@@ -1,0 +1,164 @@
+{
+  "base_url": "https://d3mya90gbacu0m.cloudfront.net/prod/StreamingAssets/aa/WebGL/",
+  "catalog_bundle_url": "https://d3mya90gbacu0m.cloudfront.net/prod/StreamingAssets/aa/catalog.bundle",
+  "output_dir": "downloaded_bundles",
+  "export_dir": "exported_assets",
+  "logs_dir": "logs",
+  "workers": 20,
+  "export_workers": 20,
+  "timeout": 60,
+  "retries": 3,
+  "force": false,
+  "expand_dependencies": true,
+  "skip_low_quality": true,
+  "export_layout": "character",
+  "resource_file": "C:\\Users\\Administrator\\Desktop\\Smart_Bundle_Downloader_GUI_v1.6\\bundle_id_mapping.csv",
+  "remember_ui_state": true,
+  "filter_search": "",
+  "filter_category": "全部分类",
+  "filter_version": "全部版本",
+  "sort_column": "id",
+  "sort_descending": false,
+  "checked_bundles": [],
+  "window_geometry": "1420x860+0+0",
+  "spine_auto_enabled": false,
+  "spine_source_dir": "",
+  "spine_output_dir": "exported_assets/spine_global_actions",
+  "spine_converter_path": "C:/Users/Administrator/Desktop/Smart_Bundle_Downloader_GUI_v1.6/SpineSkeletonDataConverter.exe",
+  "spine_root_bone": "",
+  "spine_make_skel": true,
+  "spine_remove_curve": false,
+  "spine_keep_json": false,
+  "spine_backup": false,
+  "spine_actions": [
+    {
+      "name": "Jump",
+      "kind": "跳跃",
+      "dur": 0.2,
+      "amp": 48.0,
+      "count": 1,
+      "repeat": 1,
+      "direction": "上",
+      "segments": [
+        {
+          "time": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "time": 0.036,
+          "x": 0.0,
+          "y": 18.24
+        },
+        {
+          "time": 0.1,
+          "x": 0.0,
+          "y": 48.0
+        },
+        {
+          "time": 0.156,
+          "x": 0.0,
+          "y": 20.16
+        },
+        {
+          "time": 0.2,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ]
+    },
+    {
+      "name": "DoubleJump",
+      "kind": "跳跃",
+      "dur": 0.4,
+      "amp": 48.0,
+      "count": 2,
+      "repeat": 1,
+      "direction": "上",
+      "segments": [
+        {
+          "time": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "time": 0.036,
+          "x": 0.0,
+          "y": 18.24
+        },
+        {
+          "time": 0.1,
+          "x": 0.0,
+          "y": 48.0
+        },
+        {
+          "time": 0.156,
+          "x": 0.0,
+          "y": 20.16
+        },
+        {
+          "time": 0.2,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "time": 0.236,
+          "x": 0.0,
+          "y": 18.24
+        },
+        {
+          "time": 0.3,
+          "x": 0.0,
+          "y": 48.0
+        },
+        {
+          "time": 0.356,
+          "x": 0.0,
+          "y": 20.16
+        },
+        {
+          "time": 0.4,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Sway",
+      "kind": "左右摇摆",
+      "dur": 0.4,
+      "amp": 22.0,
+      "count": 1,
+      "repeat": 1,
+      "direction": "右",
+      "segments": [
+        {
+          "time": 0.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "time": 0.1,
+          "x": 22.0,
+          "y": 0.0
+        },
+        {
+          "time": 0.2,
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "time": 0.3,
+          "x": -22.0,
+          "y": 0.0
+        },
+        {
+          "time": 0.4,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ]
+    }
+  ],
+  "config_version": 3
+}

@@ -1,0 +1,24 @@
+
+========================================================================
+GUI startup failure
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Smart_Bundle_Downloader_GUI_v1.6\launch_gui.pyw", line 59, in <module>
+    runpy.run_path(str(ROOT / "app.py"), run_name="__main__")
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 269, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Administrator\Desktop\Smart_Bundle_Downloader_GUI_v1.6\app.py", line 43, in <module>
+    core = load_core()
+  File "C:\Users\Administrator\Desktop\Smart_Bundle_Downloader_GUI_v1.6\app.py", line 39, in load_core
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Administrator\Desktop\Smart_Bundle_Downloader_GUI_v1.6\core\smart_bundle_downloader_export_v7.py", line 2746
+    if separate_sd_folder and re.search(r"(^|[/_])sd[_/\-]", source_rel.as_posix(), re.I):
+    ^^
+IndentationError: expected an indented block after 'if' statement on line 2745
